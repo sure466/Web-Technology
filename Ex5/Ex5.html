@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Exercise 5</title>
+            <script src="exp5.js"></script>
+            <link rel="shortcut icon" href="media/icon.ico" type="image/x-icon">
+        </head>
+
+    <body>
+        <fieldset>
+            <legend><h1>Shortest-Longest Word!</h1></legend>
+            String: <input id="string" type="text"><br><br>
+            <button type="submit" onclick="string()">Find</button> <br>
+            <p id="outputmin"></p>
+            <p id="outputmax"></p>
+            <a href="second.html">Next question!</a>
+        </fieldset>
+
+        <fieldset>
+            <legend><h1>Calculate your BMI!</h1></legend>
+            Weight (in kgs): <input id="weight" type="text"><br><br>
+            Height (in cms): <input id="height" type="text"><br><br>
+            <button onclick="bmi()">Calculate</button><br>
+            <p id="bmi"></p>
+            <p id="result"></p>
+            <a href="index.html">Previous question!</a>&nbsp;
+            <a href="third.html">Next question!</a>
+        </fieldset>
+
+        <fieldset>
+            <legend><h1>Fruit Farm!</h1></legend>
+            Rows: <input id="rows" type="text"><br><br>
+            Columns: <input id="cols" type="text"><br><br>
+            <button onclick="grow()">Plant Garden</button><br><br>
+            <div id="garden"></div><br>
+            <a href="second.html">Previous question!</a>&nbsp;
+            <a href="fourth.html">Next question!</a>
+        </fieldset>
+
+        <fieldset>
+                <legend><h1>Currency Convertor!</h1></legend>
+                Convert <input type="text" id="amt">
+                <select id="from">
+                <option value="USD">USD</option>
+                <option value="INR">INR</option>
+                </select>
+                to
+                <select id ="to">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                </select><br><br>
+                <button onclick="convert()">Convert</button><br><br>
+                <span id="answer"></span><br><br>
+                <a href="third.html">Previous question!</a>&nbsp;
+                <a href="fifth.html">Next question!</a>
+            </fieldset>
+
+            <fieldset>
+                <legend><h1>Heads or Tails?</h1></legend>
+                <div>
+                <figure><img src="https://www.usmint.gov/wordpress/wp-content/uploads/2020/12/2021-general-george-washington-crossing-the-delaware-quarter-uncirculated-obverse-philadelphia.jpg" onclick="flip()" id="coin"
+                
+                height="300px" width="300px"><br>
+                <figcaption style="position: relative; left: 95px;"><small>Click
+
+                    image to toss!</small></figcaption></figure>
+                    </div></span>
+                    <p>
+                    Heads Total: <span id="num_heads">0</span><br><br>
+                    Tails Total: <span id="num_tails">0</span><br><br>
+                    <a href="fourth.html">Previous question!</a>&nbsp;
+                    <a href="sixth.html">Next question!</a>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h1>Birthday Cake Order Form</h1></legend>
+                    # 1/2kg Cakes:&nbsp; <input type="text" id="small"><br><br>
+                    # 1kg Cakes:&nbsp; <input type="text" id="medium"><br><br>
+                    # 2kg Cakes:&nbsp; <input type="text" id="large"><br><br>
+                    Tip:
+                    <label><input type="radio" value="10" name="tip">10%</label>
+                    <label><input type="radio" value="15" name="tip"
+                    checked="checked">15%</label>
+                    <label><input type="radio" value="20" name="tip">20%</label><br><br>
+                    <button id="submit" onclick="bill()">Calculate price</button><br><br>
+                    <span id="price"></span><br><br>
+                    <a href="fifth.html">Previous question!</a>
+                </fieldset>
+
+
+
+            
+    </body>
+</html>
