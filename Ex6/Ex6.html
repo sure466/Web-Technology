@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Clock</title>
+    <script src="Ex6.js"></script>
+</head>
+<body>
+    <div id="q1">
+    <h1>Digital Clock</h1>
+    <input type="button"  id='b1' onclick="display()" value="Show Time">
+    <span id="time"></span>
+    </div>
+
+    <div id="q2">
+        <h1>Dynamic Background</h1>
+        <input type="button"  id='b2' onclick="color()" value="Disco Page">
+    </div>
+
+    <div id="q3">
+        <h1>Change Font Size of Shuvresh</h1>
+    <p id="para1" onmouseover="incSize()" onmouseout="decSize()"> Move cursor over me to zoom in....</p>
+    </div>
+
+    <div id="q4">
+        <h1>Move a Car</h1>
+        <img id="img" src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200" 
+        height:'300px' width:'169px' style="position:'relative'; left:'2px';">
+        <button type="button" onclick="moveRight()">Move Right</button>
+        <button type="button" onclick="stop()">Stop</button>
+    </div>
+
+    <div id='q5'>
+        <h1>Student details</h1>
+        <div id="out_before"></div>
+        <div id="out_after"></div>
+        <input type="button"  id='b5' onclick="Student_arr()" value="Display Result">
+    </div>
+</body>
+</html>
+
